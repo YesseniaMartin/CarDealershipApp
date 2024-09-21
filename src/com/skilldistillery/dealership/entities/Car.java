@@ -1,6 +1,8 @@
 package com.skilldistillery.dealership.entities;
 
-public class Car {
+import com.skilldistillery.dealership.app.CarTester;
+
+public class Car extends CarTester {
 	private String make;
 	private String model;
 	private String color;
@@ -9,6 +11,7 @@ public class Car {
 	public Car() {
 		super();
 	}
+
 	public Car(String make, String model, String color, double purchasePrice) {
 		super();
 		this.make = make;
@@ -48,7 +51,6 @@ public class Car {
 	public void setPurchasePrice(double purchasePrice) {
 		this.purchasePrice = purchasePrice;
 	}
-
 
 	public void displayCar() {
 		String carData = toString();
