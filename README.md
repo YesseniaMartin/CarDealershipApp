@@ -4,8 +4,8 @@
 Command line based application that model a car dealership Dealing Doogie. In this application we will be automating their inventory tracking system for their dealership.
 
 The car lot for Dealing Doogie's dearlership will have room for 10 cars.
-He will begin with one lot at a time.
-The dealership is build using The car class and that extends CarTester.
+They're starting small, so they only need to track the inventory for 1 lot at this time. They have plans to expand in the future.
+Doogie hired someone to pave and paint the lot for the 1st batch of incoming cars.
 
 
 
